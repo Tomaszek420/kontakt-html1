@@ -43,6 +43,7 @@ padding: 4px;
 font-size: 20px;
 margin-right: 4px;
 font-weight: 800;
+border-radius: 5px;
 }
 
 h2 {
@@ -57,13 +58,144 @@ font-size: 38px;
 
 h4 {
 font-weight: 600;
-font-size: 20px;
-padding-left: 100px;
-padding-right: 100px;
+font-size: 25px;
 }
 
 h5 {
 font-weight: 700;
 font-size: 45px;
-padding-left: 330px;
+padding-left: 12%;
+}
+
+.table2 {
+width: 1550px;
+height: 100px;
+text-align: center;
+padding: 3px;
+}
+
+.text-input {
+    width: 97%; /* Szerokość pola */
+    height: 350px; /* Wysokość pola */
+    font-size: 16px; /* Rozmiar czcionki */
+    padding: 10px; /* Odstępy wewnętrzne */
+    border: 1px solid #ccc; /* Kolor ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    resize: both; /* Umożliwia zmianę rozmiaru */
+}
+
+.text-input1 {
+    width: 400px; /* Szerokość pola */
+    height: 50px; /* Wysokość pola */
+    font-size: 16px; /* Rozmiar czcionki */
+    padding: 10px; /* Odstępy wewnętrzne */
+    border: 1px solid #ccc; /* Kolor ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    resize: both; /* Umożliwia zmianę rozmiaru */
+}
+
+.text-input3 { width: 400px; /* Szerokość pola / 
+height: 500px; / Wysokość pola */ 
+}
+
+.table3 {
+width: 1550px;
+height: 100px;
+text-align: center;
+padding: 3px;
+}
+
+@media (max-width: 600px) {
+
+.link {
+color:#FFFFFF;
+background-color:#bdf0f0;
+text-decoration:none;
+padding: 0.7%;
+font-size: 65%;
+font-weight: 800;
+margin-right: 2%;
+}
+
+.sticky-menu1 {
+position: sticky;
+top: 0;
+background-color:white;
+padding: 3%;
+height: 7%;
+margin: 0;
+}
+
+.sticky-menu1 img {
+float: left;
+margin-top: -1%;
+height: 9%;
+width: 9%;
+}
+
+h4 {
+font-weight: 600;
+font-size: 55%;
+padding-left: 3%;
+padding-right: 3%;
+}
+
+h5{
+font-weight: 400;
+font-size: 14px;
+}
+
+b {
+font-weight: 600;
+font-size: 35%;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+table2 {
+width: 20px;
+height: 33px;
+text-align: center;
+padding: 1px;
+}
+
+.text-input {
+    width: 97%; /* Szerokość pola */
+    height: 112px; /* Wysokość pola */
+    font-size: 6px; /* Rozmiar czcionki */
+    padding: 3.4px; /* Odstępy wewnętrzne */
+    border: 1px solid #ccc; /* Kolor ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    resize: both; /* Umożliwia zmianę rozmiaru */
+}
+
+.text-input1 {
+    width: 130px; /* Szerokość pola */
+    height: 16px; /* Wysokość pola */
+    font-size: 6px; /* Rozmiar czcionki */
+    padding: 3.4px; /* Odstępy wewnętrzne */
+    border: 1px solid #ccc; /* Kolor ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    resize: both; /* Umożliwia zmianę rozmiaru */
+}
+
+.text-input3 { 
+width: 129px; /* Szerokość pola / 
+height: 161px; / Wysokość pola */ 
+}
+
+.table3 {
+width: 80%;
+height: 32px;
+text-align: center;
+padding: 1px;
+}
+
+.map-container {
+        display: none; /* Ukryj mapę na urządzeniach o szerokości poniżej 768px */
+    }
+
+.sticky-section1 {
+background-color: #DBE3DE;
+padding: 6%;
 }
