@@ -15,15 +15,14 @@
 		<a href="#s3" class="link">GALERIA</a>
 		<a href="https://tomaszek420.github.io/kontakt-html1/kontakt.html" class="link">KONTAKT</a>
 	</div>
-	<br>
+		<br><center>
 	<div class="sticky-section1"><h1>Kontakt</h1>
-		<form action= "mailto:jankowalski@wp.pl?subject=temat" method="POST">
-		<table>
+		<table class="table3">
 			<thead>
 				<tr>
-					<th><h4>Siedziba firmy</h4></th>
-					<th><h4>Telefon</h4></th>
-					<th><h4>Adres e-mail</h4></th>
+					<td><h4>Siedziba firmy</h4></td>
+					<td><h4>Telefon</h4></td>
+					<td><h4>Adres e-mail</h4></td>
 				</tr>
 			</thead>
 			<tbody>
@@ -32,65 +31,81 @@
 					<td><b>123 909 982</b></td>
 					<td><b>Kreatwynastrona@wp.pl</b></td>
 				</tr>
+			</tbody>
+		</table>
+		<table class="table3">
+			<form>
+			<tbody>
 				<tr>
-					<td><b>
-						<form action="/action_page.php">
-						<label for="username">Imię:</label>
-						<input type="text" id="username" name="username" required>
-						</form></b>
-					</td>
-					<td><b>
-						<form action="/action_page.php">
-						<label for="username">Nazwisko:</label>
-						<input type="text" id="username" name="username" required>
-						</form></b>
-					</td>
-					<td><b>
-						<input type="email" name="mail" size="50" value="mail@mail.com"></b>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="4">
-						<textarea style="width:70%; height:300px;" cols="20" rows="10" name="pole">Co potrzebujesz?</textarea>
+					<td>
+						<input type="text" class="text-input1"  id="username" name="username" required size="auto" value="Imię">
 					</td>
 					<td>
-					<h3>Mapa&nbsp&nbsp&nbsp</h3>
+						<input type="text" class="text-input1" id="username" name="username" required size="auto" value="Nazwisko">
 					</td>
-					<td>
+					<td rowspan="3" class="map-container">
 						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-						<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-							var setting = {"query":"Tuchola Park, Świecka, Tuchola, Polska","width":600,"height":450,"satellite":false,"zoom":15,"placeId":"ChIJn22ma7tXAkcRIr8WQQJ4rHI","cid":"0x72ac78024116bf22","coords":[53.57971449999999,17.8769466],"cityUrl":"/poland/tuchola-250633","cityAnchorText":"Mapa Tuchola, kujawsko-pomorskie, Polska","lang":"pl","queryString":"Tuchola Park, Świecka, Tuchola, Polska","centerCoord":[53.57971449999999,17.8769466],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1165339"};
-							var d = document;
-							var s = d.createElement('script');
-							s.src = 'https://1map.com/js/script-for-user.js?embed_id=1165339';
-							s.async = true;
-							s.onload = function (e) {
-							window.OneMap.initMap(setting)
-							};
-							var to = d.getElementsByTagName('script')[0];
-							to.parentNode.insertBefore(s, to);
-						})();</script><a href="https://1map.com/pl/map-embed">1 Map</a></div>
-				</tr>
-				<tr>
-					</td>
-					<td colspan="3">
-						<b><p>Wyrażam zgodę na przetwarzanie podanych przeze mnie danych osobowych przez firma Sp. z o.o. Sp. k. z siedzibą w Krakowie, 
-						02-496, przy ul.Królowej Bony 90A/2, będącą administratorem danych osobowych. Podaję dane osobowe dobrowolnie i oświadczam, że podane dane są zgodne z prawdą. 
-						Oświadczam, że zapoznałem się i akceptuję politykę bezpieczeństwa przetwarzania danych osobowych, w szczególności dotyczącą celu i sposobów przetwarzania danych 
-						osobowych oraz prawie dostępu do treści swoich danych oraz ich poprawiania i usuwania.</p></b>
-						<input type="checkbox" name="wybor" checked="checked" value="opcja1">
+							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+								var setting = {"query":"Piaski 17, Swarzędz, Polska","width":650,"height":600,"satellite":false,"zoom":18,"placeId":"ChIJG3WnSTVZBEcRulblfDr5dmY","cid":"0x6676f93a7ce556ba","coords":[52.4087592,17.0752787],"cityUrl":"/poland/poznan-33147","cityAnchorText":"Mapa Poznań, wielkopolskie, Polska","lang":"pl","queryString":"Piaski 17, Swarzędz, Polska","centerCoord":[52.4087592,17.0752787],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1167109"};
+								var d = document;
+								var s = d.createElement('script');
+									s.src = 'https://1map.com/js/script-for-user.js?embed_id=1167109';
+									s.async = true;
+									s.onload = function (e) {
+									window.OneMap.initMap(setting)
+									};
+								var to = d.getElementsByTagName('script')[0];
+									to.parentNode.insertBefore(s, to);
+								})();</script><a href="https://1map.com/pl/map-embed">1 Map</a></div>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<input type="submit" value="wyslij">
+						<input type="email" class="text-input1" name="mail" size="auto" value="E-mail">
+					</td>
+					<td>
+						<input type="text" class="text-input1" name="text" size="auto" value="Rodzaj usługi">
+					</td>
+					
+				</tr>
+				<tr>
+					<td colspan="2">
+						<textarea class="text-input" placeholder="Wpisz swoją treść tutaj..."></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="checkbox" id="confirm" name="confirm">
+						<label for="confirm"><h5>Wyrażam zgodę na przetwarzanie podanych przeze mnie danych osobowych przez Neckar Solutions Sp. z o.o. Sp. k. z siedzibą w Warszawie, 02-496, 
+						przy ul.Królowej Bony 47A/2, będącą administratorem danych osobowych. Podaję dane osobowe dobrowolnie i oświadczam, że podane dane są zgodne z prawdą. Oświadczam, 
+						że zapoznałem się i akceptuję politykę bezpieczeństwa przetwarzania danych osobowych, 
+						w szczególności dotyczącą celu i sposobów przetwarzania danych osobowych oraz prawie dostępu do treści swoich danych oraz ich poprawiania i usuwania.</label><br><br>
+							<span id="error" class="error" style="display:none;">Musisz potwierdzić zapoznanie się z regulaminem!</h5></span><br>
+							<input type="submit" value="Wyślij" class="link"></form>
+					<script>
+						function validateForm() {
+							const checkbox = document.getElementById('confirm');
+							const error = document.getElementById('error');
+
+								if (!checkbox.checked) {
+								error.style.display = 'block';
+								return false; // Zablokuj wysłanie formularza
+								} else {
+								error.style.display = 'none';
+								return true; // Pozwól na wysłanie formularza
+								}
+							}
+					</script>
 					</td>
 				</tr>
 			</tbody>
-		</table></form></div>
-	<footer id="c1">
-		<center><h3>Stopka</h3>
-		<img src="logo1.jpg" alt="logoStrony" width="125" height="125">
-		<b><p>&copy; 2024 Tomasz Neckar. Wszystkie prawa zastrzeżone.</p></b></center>
-	</footer
+		</table>
+	</div>
+<footer id="c1">
+        <center>
+            <h3>Stopka</h3>
+            <img src="logo1.jpg" alt="logoStrony" width="125" height="125">
+            <b><p>&copy; 2024 Tomasz Neckar. Wszystkie prawa zastrzeżone.</p></b>
+        </center>
+    </footer>
+				
 </body>
