@@ -46,15 +46,6 @@ font-weight: 800;
 border-radius: 5px;
 }
 
-h2 {
-font-weight: 730;
-font-size: 46px;
-}
-
-h3 {
-font-weight: 700;
-font-size: 38px;
-}
 
 h4 {
 font-weight: 600;
@@ -62,16 +53,9 @@ font-size: 25px;
 }
 
 h5 {
-font-weight: 700;
-font-size: 45px;
+font-weight: 600;
+font-size: 20px;
 padding-left: 12%;
-}
-
-.table2 {
-width: 1550px;
-height: 100px;
-text-align: center;
-padding: 3px;
 }
 
 .text-input {
@@ -152,13 +136,6 @@ padding-left: 2%;
 padding-right: 2%;
 }
 
-table2 {
-width: 20px;
-height: 33px;
-text-align: center;
-padding: 1px;
-}
-
 .text-input {
     width: 97%; /* Szerokość pola */
     height: 112px; /* Wysokość pola */
@@ -198,4 +175,5 @@ padding: 1px;
 .sticky-section1 {
 background-color: #DBE3DE;
 padding: 6%;
+}
 }
