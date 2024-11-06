@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
@@ -31,7 +34,7 @@
             </tr>
         </tbody>
     </table>
-    <form onsubmit="return validateForm()">
+    <form action= "mailto:jankowalski@wp.pl?subject=temat" method="POST">
         <table class="table3">
             <tbody>
                 <tr>
@@ -86,11 +89,11 @@
                         </label><br><br>
                         <span id="error" class="error" style="display:none;">Musisz potwierdzić zapoznanie się z regulaminem!</span><br>
                         <input type="submit" value="Wyślij" class="link">
+	</form>
                     </td>
                 </tr>
             </tbody>
         </table>
-    </form>
 </div>
 
 <script>
